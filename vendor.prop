@@ -126,7 +126,6 @@ dalvik.vm.heapmaxfree=8m
 dalvik.vm.lockprof.threshold=500
 
 # ART
-dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.systemuicompilerfilter=speed
 ro.sys.fw.dex2oat_thread_count=8
 dalvik.vm.boot-dex2oat-threads=8
