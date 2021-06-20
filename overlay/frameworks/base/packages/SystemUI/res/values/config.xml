@@ -30,4 +30,7 @@
 
     <!-- Threshold in micro watts above which a charger is rated as "fast"; 2.16A @ 5V  -->
     <integer name="config_chargingFastThreshold">10800000</integer>
+
+    <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
+    <integer name="config_screenRecorderMaxFramerate">60</integer>
 </resources>
