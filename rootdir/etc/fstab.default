@@ -62,3 +62,5 @@ odm                                                     /odm                    
 # VOLD:samsung/common_sm7125/fstab_dynamic_partition.samsung
 /devices/platform/soc/8804000.sdhci/mmc_host*                        auto    vfat    defaults    voldmanaged=sdcard:auto
 /devices/platform/soc/a600000.ssusb/a600000.dwc3/xhci-hcd.0.auto*    auto    auto    defaults    voldmanaged=usb:auto
+
+/dev/block/bootdevice/by-name/recovery  /recovery emmc  defaults                        defaults
