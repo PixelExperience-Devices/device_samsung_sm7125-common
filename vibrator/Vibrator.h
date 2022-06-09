@@ -10,7 +10,7 @@
 
 #define INTENSITY_MIN 40
 #define INTENSITY_MAX 10000
-#define INTENSITY_DEFAULT 7000
+#define INTENSITY_DEFAULT INTENSITY_MAX
 
 #define VIBRATOR_TIMEOUT_PATH "/sys/class/timed_output/vibrator/enable"
 #define VIBRATOR_INTENSITY_PATH "/sys/class/timed_output/vibrator/intensity"
