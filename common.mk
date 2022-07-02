@@ -67,11 +67,7 @@ PRODUCT_PACKAGES += \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
-<<<<<<< HEAD
     android.hardware.audio@6.0-impl.sm7125 \
-=======
-    android.hardware.audio@6.0-impl \
->>>>>>> parent of 4929810 (Update audio HAL to v7 and disable DRC)
     android.hardware.audio.effect@6.0-impl \
     android.hardware.soundtrigger@2.2-impl \
     audio.a2dp.default \
@@ -384,11 +380,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
     android.hardware.usb@1.3-service-qti
-=======
-    android.hardware.usb@1.2-service-qti
->>>>>>> parent of 4929810 (Update audio HAL to v7 and disable DRC)
 
 # Vibrator
 PRODUCT_PACKAGES += \
