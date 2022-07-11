@@ -170,6 +170,9 @@ ro.vendor.use_data_netmgrd=false
 ro.radio.noril=no
 ro.vendor.epdg.support=true
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
