@@ -78,7 +78,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
-    libvolumelistener
+    libvolumelistener \
+    SamsungDAP
 
 PRODUCT_PACKAGES += \
     SamsungDAP
