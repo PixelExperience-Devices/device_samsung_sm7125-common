@@ -23,7 +23,31 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME "Galaxy A52/A72 4G"
+#pragma push_macro("PROPERTY_VALUE_MAX")
+
+#if !defined(OS_GENERIC)
+#include <cutils/properties.h>
+#include <string.h>
+
+static inline const char* getBTDefaultName()
+{
+    char device[PROPERTY_VALUE_MAX];
+    property_get("ro.product.device", device, "");
+
+    if (!strcmp("a52q", device)) {
+        return "Galaxy A52 4G";
+    }
+
+    if (!strcmp("a72q", device)) {
+        return "Galaxy A72 4G";
+    }
+
+    return "Samsung Galaxy";
+}
+
+#define BTM_DEF_LOCAL_NAME getBTDefaultName()
+#endif /* OS_GENERIC */
+
 
 #define BLE_VND_INCLUDED   TRUE
 #define MAX_ACL_CONNECTIONS   16
@@ -31,5 +55,7 @@
 #define GATT_MAX_PHY_CHANNEL  10
 
 #define AVDT_NUM_SEPS 35
+
+#pragma pop_macro("PROPERTY_VALUE_MAX")
 
 #endif
