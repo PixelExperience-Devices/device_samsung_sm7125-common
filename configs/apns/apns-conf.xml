@@ -44469,6 +44469,13 @@
       authtype="1"
       type="default,supl"
   />
+  
+    <apn carrier="Virgin Internet Mexico"
+      mcc="334"
+      mnc="030"
+      apn="internet.virginmobile.mx"
+      type="default,mms,supl,hipri,fota,cbs,xcap"
+  />
 
   <apn carrier="lebara"
       mcc="420"
