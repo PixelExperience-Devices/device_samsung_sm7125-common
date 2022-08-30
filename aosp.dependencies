@@ -1,20 +1,20 @@
 [
-  {
-    "repository"  : "kernel_samsung_sm7125",
-    "target_path" : "kernel/samsung/sm7125",
-    "branch"      : "twelve",
-    "remote"      : "pixel-devices"
-  },
-  {
-    "repository"  : "vendor_samsung_sm7125-common",
-    "target_path" : "vendor/samsung/sm7125-common",
-    "branch"      : "twelve",
-    "remote"      : "pixel-devices-blobs"
-  },
-  {
-    "repository"  : "hardware_samsung",
-    "target_path" : "hardware/samsung",
-    "branch"      : "twelve",
-    "remote"      : "pixel"
-  }
+   {
+      "repository":"kernel_samsung_sm7125",
+      "target_path":"kernel/samsung/sm7125",
+      "branch":"twelve",
+      "remote":"pixel-devices"
+   },
+   {
+      "repository":"vendor_samsung_sm7125-common",
+      "target_path":"vendor/samsung/sm7125-common",
+      "branch":"twelve",
+      "remote":"pixel-devices-blobs"
+   },
+   {
+      "repository":"hardware_samsung",
+      "target_path":"hardware/samsung",
+      "branch":"twelve",
+      "remote":"pixel"
+   }
 ]
