@@ -396,6 +396,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.sm7125
 
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.exynos9810
+
 # Tether
 PRODUCT_PACKAGES += \
     ipacm \
