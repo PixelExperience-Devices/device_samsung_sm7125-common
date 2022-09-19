@@ -450,7 +450,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/samsung/aidl/power-libperfmgr
+    $(COMMON_PATH)/aidl/power-libperfmgr
 
 # Prop files
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
