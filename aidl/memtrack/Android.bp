@@ -13,10 +13,10 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.memtrack-service.exynos9810",
+    name: "android.hardware.memtrack-service.s",
     relative_install_path: "hw",
-    init_rc: ["memtrack-exynos9810.rc"],
-    vintf_fragments: ["memtrack-exynos9810.xml"],
+    init_rc: ["memtrack-sm7125.rc"],
+    vintf_fragments: ["memtrack-sm7125.xml"],
     vendor: true,
     shared_libs: [
         "libbase",

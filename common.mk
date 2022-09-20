@@ -154,7 +154,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     vendor.qti.hardware.display.allocator-service \
-    android.hardware.memtrack-service.exynos9810 \
+    android.hardware.memtrack-service.sm7125 \
     android.hardware.renderscript@1.0-impl \
     libtinyxml \
     libtinyxml2 \
@@ -336,7 +336,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.exynos9810-libperfmgr \
+    android.hardware.power-service.sm7125-libperfmgr \
     android.hardware.power@1.2.vendor
 
 PRODUCT_COPY_FILES += \
@@ -371,7 +371,7 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.samsung-multihal \
-    android.hardware.sensors-service.exynos9810-multihal \
+    android.hardware.sensors-service.sm7125-multihal \
     android.hardware.sensors@2.0-ScopedWakelock.vendor \
     sensors.samsung
 
@@ -389,7 +389,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service.exynos9810
+    android.hardware.usb-service.sm7125
 
 # Vibrator
 PRODUCT_PACKAGES += \
@@ -397,7 +397,7 @@ PRODUCT_PACKAGES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.exynos9810
+    android.hardware.light-service.sm7125
 
 # Tether
 PRODUCT_PACKAGES += \
