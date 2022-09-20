@@ -14,7 +14,7 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.sensors-service.exynos9810-multihal",
+    name: "android.hardware.sensors-service.sm7125-multihal",
     defaults: [
         "hidl_defaults",
     ],
@@ -26,8 +26,8 @@ cc_binary {
         "service.cpp",
     ],
     local_include_dirs: ["include"],
-    init_rc: ["android.hardware.sensors-service.exynos9810-multihal.rc"],
-    vintf_fragments: ["android.hardware.sensors-exynos9810-multihal.xml"],
+    init_rc: ["android.hardware.sensors-service.sm7125-multihal.rc"],
+    vintf_fragments: ["android.hardware.sensors-sm7125-multihal.xml"],
     header_libs: [
         "android.hardware.sensors@2.X-shared-utils",
     ],

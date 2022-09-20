@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "android.hardware.lights-service.exynos9810"
+#define LOG_TAG "android.hardware.lights-service.sm7125"
 
 #include <android-base/stringprintf.h>
 #include <fstream>

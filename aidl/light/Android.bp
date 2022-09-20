@@ -5,10 +5,10 @@
 //
 
 cc_binary {
-    name: "android.hardware.light-service.exynos9810",
+    name: "android.hardware.light-service.sm7125",
     relative_install_path: "hw",
-    init_rc: ["android.hardware.light-service.exynos9810.rc"],
-    vintf_fragments: ["android.hardware.light-service.exynos9810.xml"],
+    init_rc: ["android.hardware.light-service.sm7125.rc"],
+    vintf_fragments: ["android.hardware.light-service.sm7125.xml"],
     local_include_dirs: ["include"],
     srcs: [
         "Lights.cpp",
