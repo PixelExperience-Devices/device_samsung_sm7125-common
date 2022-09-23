@@ -389,7 +389,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb-service.sm7125
+    android.hardware.usb@1.3-service-qti
 
 # Vibrator
 PRODUCT_PACKAGES += \
