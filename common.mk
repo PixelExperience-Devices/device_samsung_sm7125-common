@@ -77,7 +77,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.2-impl \
     audio.r_submix.default \
     audio.usb.default \
-    libaudioalsa \
     libtinycompress \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -110,7 +109,6 @@ PRODUCT_COPY_FILES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
-    com.qualcomm.qti.bluetooth_audio@1.0.vendor \
     audio.bluetooth.default \
     android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.bluetooth@1.0.vendor
@@ -271,7 +269,6 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-    android.hardware.omx@1.0-service \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
