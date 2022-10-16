@@ -22,6 +22,3 @@ ro.ril.disable.power.collapse=0
 ro.ril.fast.dormancy.rule=1
 ro.ril.fast.dormancy.timeout=3
 ro.mot.eri.losalert.delay=100
-
-# Pre-Rendering
-ro.vendor.perf.scroll_opt=true
