@@ -455,7 +455,7 @@ WITH_DEXPREOPT_DEBUG_INFO := false
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
-    SystemUI
+    SystemUIGoogle
     
 # Prop files
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
