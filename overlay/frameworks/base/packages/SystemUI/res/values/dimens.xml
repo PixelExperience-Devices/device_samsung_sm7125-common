@@ -17,10 +17,10 @@
     <dimen name="keyguard_indication_margin_bottom">20dp</dimen>
 	
 	    <!-- Default radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">15dp</dimen>
+    <dimen name="rounded_corner_radius">13dp</dimen>
 
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">15dp</dimen>
+    <dimen name="status_bar_padding_start">13dp</dimen>
 
     <!-- the padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">0dp</dimen>
@@ -29,4 +29,3 @@
     <dimen name="keyguard_carrier_text_margin">30px</dimen>
 
 </resources>
-
