@@ -17,3 +17,6 @@ vendor.samsung.hardware.radio.channel::ISehChannel                              
 
 # Thermal
 vendor.samsung.hardware.thermal::ISehThermal                                                u:object_r:hal_thermal_samsung_hwservice:s0
+
+# Dolby
+vendor.dolby.hardware.dms::IDms                                                          u:object_r:hal_dms_hwservice:s0

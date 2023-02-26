@@ -17,6 +17,12 @@
 
 /dev/ttyGS[0-9]*	u:object_r:serial_device:s0
 
+# Dolby - data
+/data/vendor/dolby(/.*)?                                                u:object_r:vendor_data_file:s0
+
+# Dolby
+/(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service                                u:object_r:hal_dms_default_exec:s0
+
 # Fingerprint
 /dev/esfp[0-9]                               u:object_r:fp_sensor_device:s0
 /dev/goodix_fp                               u:object_r:fp_sensor_device:s0
