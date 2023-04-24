@@ -470,5 +470,10 @@ TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 # Live Wallpaper
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
+#NGA
+PRODUCT_PACKAGES += \
+    NgaResources \
+    nga
+
 # Inherit proprietary blobs
 $(call inherit-product, vendor/samsung/sm7125-common/sm7125-common-vendor.mk)
