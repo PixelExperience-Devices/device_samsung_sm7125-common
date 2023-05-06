@@ -2,7 +2,7 @@
    {
       "repository":"kernel_samsung_sm7125",
       "target_path":"kernel/samsung/sm7125",
-      "branch":"thirteen",
+      "branch":"thirteen-wip",
       "remote":"pixel-devices"
    },
    {
