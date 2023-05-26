@@ -390,7 +390,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.sm7125
+    android.hardware.vibrator-service.samsung
 
 # Light
 PRODUCT_PACKAGES += \
