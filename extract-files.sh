@@ -70,6 +70,12 @@ function blob_fixup() {
             # Replace libutils with vndk30 libutils
             "${PATCHELF}" --replace-needed libutils.so libutils-v30.so "${2}"
             ;;
+        vendor/lib*/libskeymaster4device.so)
+            "${PATCHELF}" --replace-needed libcrypto.so libcrypto-v33.so "${2}"
+            ;;
+        vendor/lib*/hw/gatekeeper.mdfpp.so)
+            "${PATCHELF}" --replace-needed libcrypto.so libcrypto-v33.so "${2}"
+            ;;
     esac
 }
 
