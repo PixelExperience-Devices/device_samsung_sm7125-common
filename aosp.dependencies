@@ -8,7 +8,7 @@
    {
       "repository":"vendor_samsung_sm7125-common",
       "target_path":"vendor/samsung/sm7125-common",
-      "branch":"thirteen",
+      "branch":"thirteen-wip",
       "remote":"pixel-devices-blobs"
    },
    {
