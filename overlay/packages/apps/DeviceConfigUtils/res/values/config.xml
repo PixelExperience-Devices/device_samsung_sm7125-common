@@ -12,7 +12,7 @@
 -->
 
 <resources>
-    <string-array name="configs_base">
+    <string-array name="device_configs_override">
         <!-- ART heap compaction for cached apps -->
         <item>activity_manager/use_compaction=true</item>
 
