@@ -116,8 +116,8 @@ vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libswspatializer.so
 
-# Audio (FX modules) - from cheetah-user 13 TQ2A.230405.003.E1 9802792 release-keys
-vendor/lib/soundfx/libspatialaudio.so|379b98b020729d05cad4e84202f42335b96bb755
+# Audio (FX modules) - from felix_beta-user 14 UPB4.230623.005 10442412 release-keys
+vendor/lib/soundfx/libspatialaudio.so|aa379a802180be8f8a570a7417e5b1b2546da472
 
 # Audio Firmware
 vendor/firmware/dax_param.bin
