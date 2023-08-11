@@ -482,6 +482,9 @@ PRODUCT_PACKAGES += \
     NgaResources \
     nga
 
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Google Dialer Call recording
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml
