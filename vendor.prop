@@ -110,10 +110,6 @@ bluetooth.profile.sap.server.enabled?=true
 bluetooth.profile.ccp.server.enabled?=false
 bluetooth.profile.vcp.controller.enabled?=false
 
-# Blur
-ro.surface_flinger.supports_background_blur=1
-ro.sf.blurs_are_expensive=1
-
 # Camera
 camera.disable_zsl_mode=1
 ro.camera.notify_nfc=1
