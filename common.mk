@@ -76,7 +76,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
-    libvolumelistener
+    libvolumelistener \
+    audio_parameter_service.samsung_sm7125
 
 TARGET_EXCLUDES_AUDIOFX := true
 
