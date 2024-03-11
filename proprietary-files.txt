@@ -82,6 +82,7 @@ vendor/lib/libcirrusspkrprot.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libdrc.so
 vendor/lib/libspkrprot.so
+vendor/lib/libprofileparamstorage.so
 vendor/lib/libspatializerparamstorage.so
 vendor/lib64/libspatializerparamstorage.so
 vendor/lib/spatializer-aidl-V1-cpp.so
@@ -976,7 +977,6 @@ vendor/lib/libril.so|b7759521aeb60a07b929e4ff53ba25338c4cd087
 vendor/lib64/libril.so|49d4eebf79faefd03b8378c3ed07cf44730a15ff
 vendor/lib64/liblqe.so|732f3a617a90c2c96b54fe80d0ab2a409b2cb82a
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|c6dd375aba54c664e61cf1915477feb01154333f
-
 
 # Sensors
 vendor/bin/factory.ssc
